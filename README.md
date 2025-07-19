@@ -88,6 +88,10 @@ El sistema implementa validaciones para asegurar la correcta entrada de datos:
 - **RUC**: El RUC debe tener **exactamente 10 caracteres**.
 - **Teléfono**: El teléfono debe tener al menos **7 caracteres**.
 - **Correo**: El correo debe seguir un formato estándar (ejemplo: `correo@dominio.com`).
+- **Fecha de Registro de Proveedor**:
+   - La **fecha de registro** se asigna **automáticamente** utilizando la fecha y hora actuales al momento de ingresar un proveedor, garantizando que siempre se mantenga un registro preciso de cuándo fue añadido un nuevo proveedor.
+   - **Formato de la Fecha**: La fecha se almacenará en el formato `YYYY-MM-DD`, asegurando la uniformidad en la base de datos.
+   - **Asignación automática**: La fecha es generada automáticamente por el sistema, sin necesidad de intervención del usuario.
 
 ---
 
